@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omar Hisham Zakaria | GIS Administrator</title>
+<meta name="description" content="Omar Hisham Zakaria Mahmoud — GIS Administrator with 6+ years in Enterprise GIS, ArcGIS Enterprise, Utility Network, geodatabase management and GIS QA/QC in Saudi Arabia and Egypt.">
+<meta name="keywords" content="GIS Administrator, GIS Specialist, GIS Analyst, ArcGIS Enterprise, ArcGIS Pro, ArcGIS Online, Utility Network, Enterprise Geodatabase, GIS QA/QC, Data Reviewer, Attribute Rules, Topology, ModelBuilder, FME, Python, SQL, CAD to GIS, Riyadh, Saudi Arabia">
+<meta name="author" content="Omar Hisham Zakaria Mahmoud">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Omar Hisham Zakaria | GIS Administrator">
+<meta property="og:description" content="Enterprise GIS · Utility Network · Geospatial Data Management · 6+ years experience">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="theme-color" content="#0b1220">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Apply saved theme / language before paint to avoid a flash
+  try {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+    if (localStorage.getItem('lang') === 'ar') { document.documentElement.lang = 'ar'; document.documentElement.dir = 'rtl'; }
+  } catch (e) {}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Omar Hisham Zakaria Mahmoud",
+  "alternateName": "عمر هشام زكريا محمود",
+  "jobTitle": "GIS Administrator",
+  "email": "mailto:oh0847338@gmail.com",
+  "telephone": "+966531240663",
+  "address": { "@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Helwan University" },
+  "sameAs": ["https://www.linkedin.com/in/omar-hesham-5655701b6"],
+  "knowsAbout": ["ArcGIS Enterprise", "ArcGIS Pro", "ArcGIS Online", "Utility Network", "Enterprise Geodatabase", "GIS QA/QC", "Spatial Analysis", "FME", "Python", "SQL", "CAD to GIS conversion"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M16 2C10 2 6 6.6 6 12.2 6 19.6 16 30 16 30s10-10.4 10-17.8C26 6.6 22 2 16 2Z" fill="currentColor"/><circle cx="16" cy="12" r="4" fill="var(--bg)"/></svg>
+      </span>
+      <span class="brand__text" data-i18n="brand">Omar Hisham</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-i18n="nav.exp">Experience</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#certifications" data-i18n="nav.certs">Certifications</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav__tools">
+      <button class="icon-btn" id="langBtn" type="button" aria-label="Switch language">
+        <span class="lang-label">ع</span>
+      </button>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle dark mode">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <svg class="hero__contours" id="contours" aria-hidden="true"></svg>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__copy reveal">
+      <p class="eyebrow"><span class="pulse" aria-hidden="true"></span><span data-i18n="hero.status">Open to GIS Administrator opportunities · Riyadh, KSA</span></p>
+      <h1 class="hero__name">
+        <span data-i18n="hero.hello">Hi, I'm</span>
+        <span class="grad" data-i18n="name">Omar Hisham Zakaria</span>
+      </h1>
+      <p class="hero__role"><strong data-i18n="role">GIS Administrator</strong><span class="sep">|</span><span data-i18n="hero.tags">Enterprise GIS · Utility Network · Geospatial Data Management</span></p>
+      <p class="hero__lead" data-i18n="hero.lead">I build and safeguard enterprise geodatabases, ArcGIS Enterprise portals and utility networks — turning raw CAD and field data into accurate, validated, decision-ready GIS for municipalities and utilities across Saudi Arabia and Egypt.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projects" data-i18n="hero.cta1">View my work</a>
+        <a class="btn btn--ghost" href="assets/Omar-Hesham-GIS-CV.pdf" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
+          <span data-i18n="hero.cta2">Download CV</span>
+        </a>
+      </div>
+      <ul class="hero__social" aria-label="Links">
+        <li><a href="https://www.linkedin.com/in/omar-hesham-5655701b6" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.8-1.7-2.8-1.71 0-1.97 1.33-1.97 2.7V21h-4z" fill="currentColor"/></svg></a></li>
+        <li><a href="mailto:oh0847338@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></li>
+        <li><a href="https://wa.me/966531240663" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.6 2.1 1.1 1 2 1.3 2.3 1.4.3.2.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.1Z" fill="currentColor" stroke="none"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="hero__visual reveal">
+      <div class="portrait">
+        <div class="portrait__ring" aria-hidden="true"></div>
+        <img src="assets/img/omar.webp" alt="Portrait of Omar Hisham Zakaria" width="420" height="420">
+        <div class="chip chip--a"><span class="dot"></span>ArcGIS Enterprise</div>
+        <div class="chip chip--b"><span class="dot"></span>Utility Network</div>
+        <div class="chip chip--c"><span class="dot"></span>QA / QC</div>
+      </div>
+      <div class="coords" aria-hidden="true"><span class="coords__label">WGS 84</span><span id="coordText">24.7136° N, 46.6753° E</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <dl class="stats reveal">
+      <div><dt data-i18n="stat1">Years in GIS</dt><dd><span class="count" data-to="6">0</span>+</dd></div>
+      <div><dt data-i18n="stat2">Organizations</dt><dd><span class="count" data-to="6">0</span></dd></div>
+      <div><dt data-i18n="stat3">Certified courses</dt><dd><span class="count" data-to="17">0</span>+</dd></div>
+      <div><dt data-i18n="stat4">Countries</dt><dd><span class="count" data-to="2">0</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ================= ABOUT / SUMMARY ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="kicker">01</p>
+      <h2 data-i18n="about.title">Professional Summary</h2>
+    </header>
+    <div class="about reveal">
+      <div class="about__text">
+        <p data-i18n="about.p1">GIS professional with <strong>6+ years</strong> of experience in GIS data management, enterprise GIS administration, spatial analysis and geospatial data quality across utility, infrastructure, urban planning and municipal projects in <strong>Saudi Arabia and Egypt</strong>.</p>
+        <p data-i18n="about.p2">Strong command of the Esri ecosystem — ArcGIS Pro, ArcGIS Enterprise, ArcGIS Online, Enterprise Geodatabases, Utility Network, Data Reviewer, Attribute Rules, Topology, ModelBuilder, Experience Builder and ArcGIS Dashboards — with practical FME, Python and SQL automation.</p>
+        <p data-i18n="about.p3">I specialise in turning complex CAD, as-built and field data into accurate, structured and published geospatial information that supports infrastructure, utilities, asset management and operational decision-making.</p>
+      </div>
+      <ul class="about__facts">
+        <li><span data-i18n="fact.loc.k">Location</span><strong data-i18n="fact.loc.v">Riyadh, Saudi Arabia</strong></li>
+        <li><span data-i18n="fact.role.k">Current role</span><strong data-i18n="fact.role.v">GIS Specialist — Riyadh Region Municipality</strong></li>
+        <li><span data-i18n="fact.sce.k">Saudi Council of Engineers</span><strong data-i18n="fact.sce.v">Registered Specialist (Surveying)</strong></li>
+        <li><span data-i18n="fact.edu.k">Education</span><strong data-i18n="fact.edu.v">B.A. Geography &amp; GIS — Helwan University</strong></li>
+        <li><span data-i18n="fact.lang.k">Languages</span><strong data-i18n="fact.lang.v">Arabic (native) · English (professional)</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section section--alt" id="experience">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="kicker">02</p>
+      <h2 data-i18n="exp.title">Professional Experience</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j1.date">Jan 2026 – Present</time><span class="badge" data-i18n="current">Current</span></div>
+        <div class="job__card">
+          <h3><span data-i18n="j1.title">GIS Specialist</span></h3>
+          <p class="job__org" data-i18n="j1.org">Riyadh Region General Secretariat — Municipality and Privatization Agency · Riyadh, KSA</p>
+          <ul>
+            <li data-i18n="j1.b1">Administer and maintain enterprise geodatabases for land contracts, ATM and bank licenses, telecom tower contracts, utilities and infrastructure assets, ensuring accuracy, integrity and completeness.</li>
+            <li data-i18n="j1.b2">Support ArcGIS platform projects across ArcGIS Pro, ArcGIS Enterprise and ArcGIS Online for data management, editing, analysis, validation and publishing.</li>
+            <li data-i18n="j1.b3">Run spatial analysis and site suitability assessments for infrastructure planning and location-based decision-making.</li>
+            <li data-i18n="j1.b4">Apply Data Reviewer, Topology, Attribute Rules and ModelBuilder for GIS QA/QC, improving data accuracy and workflow efficiency.</li>
+            <li data-i18n="j1.b5">Perform CAD-to-GIS and as-built-to-database conversion; automate processing and validation with Python and SQL.</li>
+            <li data-i18n="j1.b6">Publish finalized datasets to ArcGIS Enterprise / Online and deliver maps, KMZ/Excel datasets, tender plans and technical reports to stakeholders.</li>
+          </ul>
+          <ul class="tags"><li>ArcGIS Enterprise</li><li>Enterprise GDB</li><li>Utility Network</li><li>Data Reviewer</li><li>Python</li><li>SQL</li></ul>
+        </div>
+      </li>
+
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j2.date">Jan 2025 – Dec 2025</time></div>
+        <div class="job__card">
+          <h3 data-i18n="j2.title">GIS Expert Assistant</h3>
+          <p class="job__org" data-i18n="j2.org">General Organization for Physical Planning (GOPP) · Egypt</p>
+          <ul>
+            <li data-i18n="j2.b1">Created and maintained urban sector GIS layers from base maps and populated descriptive attribute tables for urban planning.</li>
+            <li data-i18n="j2.b2">Prepared Excel and KMZ datasets, map layouts and geospatial outputs for review in Google Earth.</li>
+            <li data-i18n="j2.b3">Supported spatial analysis, mapping, data preparation and GIS documentation for urban and regional planning.</li>
+          </ul>
+          <ul class="tags"><li>ArcGIS Pro</li><li>Urban Planning</li><li>KMZ</li><li>Cartography</li></ul>
+        </div>
+      </li>
+
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j3.date">Aug 2023 – Dec 2024</time></div>
+        <div class="job__card">
+          <h3 data-i18n="j3.title">GIS Analyst – Quality Control</h3>
+          <p class="job__org" data-i18n="j3.org">The Modern Natural Gas Company · Egypt</p>
+          <ul>
+            <li data-i18n="j3.b1">Performed GIS QC on point, line and polygon datasets for spatial integrity and compliance with project standards.</li>
+            <li data-i18n="j3.b2">Validated data with Esri Data Reviewer, Attribute Rules and Topology Rules, and drove corrective actions.</li>
+            <li data-i18n="j3.b3">Supported natural gas Utility Network workflows: CAD-to-GIS, network topology, load analysis, test sections, fittings and Material Take-Off (MTO).</li>
+            <li data-i18n="j3.b4">Managed utility enterprise geodatabases and published services via ArcGIS Enterprise Portal, Experience Builder and Dashboards.</li>
+            <li data-i18n="j3.b5">Built geoprocessing workflows with ModelBuilder, FME and Python for transformation and automation.</li>
+            <li data-i18n="j3.b6">Contributed to Digital Transformation, Haya Karima, Jubail City, Crossing and As-Built-to-Database projects.</li>
+          </ul>
+          <ul class="tags"><li>Utility Network</li><li>Data Reviewer</li><li>FME</li><li>ModelBuilder</li><li>Portal</li><li>Dashboards</li></ul>
+        </div>
+      </li>
+
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j4.date">May 2023 – Aug 2023</time></div>
+        <div class="job__card">
+          <h3 data-i18n="j4.title">GIS Specialist</h3>
+          <p class="job__org" data-i18n="j4.org">Micro Engineering Technic (METI)</p>
+          <ul>
+            <li data-i18n="j4.b1">Used Mobile Mapping Systems to label 3D objects and verify data and map accuracy against standards for Smart City projects.</li>
+          </ul>
+          <ul class="tags"><li>Mobile Mapping</li><li>3D</li><li>Smart City</li></ul>
+        </div>
+      </li>
+
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j5.date">Jun 2021 – Dec 2021</time></div>
+        <div class="job__card">
+          <h3 data-i18n="j5.title">GIS Specialist – Saudi Electricity Project</h3>
+          <p class="job__org" data-i18n="j5.org">EKC Geographic Information Systems</p>
+          <ul>
+            <li data-i18n="j5.b1">Digitized and attributed LV/MV lines, meters and transformers for Jubail City, Hafar Al-Batin and Qaryat Al-Ulya.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="job reveal">
+        <div class="job__meta"><time data-i18n="j6.date">Jan 2020 – May 2021</time></div>
+        <div class="job__card">
+          <h3 data-i18n="j6.title">GIS Specialist – Saudi Electricity Project</h3>
+          <p class="job__org" data-i18n="j6.org">Farsi Geotech</p>
+          <ul>
+            <li data-i18n="j6.b1">Supported the expansion of the electrical distribution network GIS for a Saudi utility project.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section" id="skills">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="kicker">03</p>
+      <h2 data-i18n="skills.title">Technical Skills</h2>
+    </header>
+    <div class="skills">
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg></div>
+        <h3 data-i18n="sk1">Esri ArcGIS Platform</h3>
+        <ul class="tags"><li>ArcGIS Pro</li><li>ArcGIS Enterprise</li><li>ArcGIS Online</li><li>Portal for ArcGIS</li><li>Experience Builder</li><li>ArcGIS Dashboards</li></ul>
+      </article>
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+        <h3 data-i18n="sk2">Data Management &amp; Administration</h3>
+        <ul class="tags"><li>Enterprise Geodatabase</li><li>Geodatabase Design</li><li>Utility Network</li><li>Network Topology</li><li>Versioning &amp; Publishing</li></ul>
+      </article>
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/></svg></div>
+        <h3 data-i18n="sk3">Quality Assurance / QC</h3>
+        <ul class="tags"><li>Data Reviewer</li><li>Attribute Rules</li><li>Topology Rules</li><li>Spatial Data Integrity</li><li>Attribute Validation</li></ul>
+      </article>
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 6 2 12l6 6M16 6l6 6-6 6M14 4l-4 16"/></svg></div>
+        <h3 data-i18n="sk4">Automation &amp; ETL</h3>
+        <ul class="tags"><li>Python (ArcPy)</li><li>SQL</li><li>FME Data Tools</li><li>ModelBuilder</li><li>Geoprocessing</li></ul>
+      </article>
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg></div>
+        <h3 data-i18n="sk5">GIS &amp; Engineering Tools</h3>
+        <ul class="tags"><li>QGIS</li><li>ENVI</li><li>AutoCAD</li><li>CAD-to-GIS</li><li>Google Earth / KMZ</li><li>Mobile Mapping</li></ul>
+      </article>
+      <article class="skill reveal">
+        <div class="skill__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3 data-i18n="sk6">Analysis &amp; Reporting</h3>
+        <ul class="tags"><li>Spatial Analysis</li><li>Site Suitability</li><li>Cartography</li><li>Technical Reporting</li><li>MS Excel / Word / PowerPoint</li></ul>
+      </article>
+    </div>
+
+    <div class="competencies reveal">
+      <h3 data-i18n="comp.title">Core Competencies</h3>
+      <ul>
+        <li data-i18n="c1">Enterprise GIS Administration</li>
+        <li data-i18n="c2">Geodatabase Design &amp; Management</li>
+        <li data-i18n="c3">Utility Network &amp; Utility GIS</li>
+        <li data-i18n="c4">GIS QA/QC &amp; Data Integrity</li>
+        <li data-i18n="c5">CAD-to-GIS &amp; As-Built Conversion</li>
+        <li data-i18n="c6">Workflow Automation &amp; Geoprocessing</li>
+        <li data-i18n="c7">Site Suitability &amp; Location Analysis</li>
+        <li data-i18n="c8">GIS Data Editing &amp; Publishing</li>
+        <li data-i18n="c9">GIS Data Transformation &amp; ETL</li>
+        <li data-i18n="c10">Cartography &amp; Visualization</li>
+        <li data-i18n="c11">Urban GIS &amp; Infrastructure Mapping</li>
+        <li data-i18n="c12">Technical GIS Documentation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section section--alt" id="projects">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="kicker">04</p>
+      <h2 data-i18n="proj.title">Selected Work</h2>
+      <p class="section__sub" data-i18n="proj.sub">A sample of maps, utility networks and enterprise GIS deliverables. Click any map to enlarge.</p>
+    </header>
+
+    <article class="live reveal">
+      <div class="live__info">
+        <span class="badge badge--live" data-i18n="live.badge">Interactive</span>
+        <h3 data-i18n="live.title">Low-Pressure Gas Distribution Network — Sohag, Egypt</h3>
+        <p data-i18n="live.desc">Real utility data I processed, reprojected from WGS 84 / UTM 36N to web map. Pan, zoom and click a pipe to inspect its class and length.</p>
+        <ul class="legend" id="legend"></ul>
+        <p class="live__meta"><span id="featCount">1,062</span> <span data-i18n="live.feat">line features</span> · ArcGIS Pro → GeoJSON · Leaflet</p>
+      </div>
+      <div class="live__map">
+        <div id="map" role="region" aria-label="Interactive map of gas pipeline network"></div>
+        <div class="map-switch" role="group" aria-label="Basemap">
+          <button type="button" class="on" data-base="carto" data-i18n="base.map">Map</button>
+          <button type="button" data-base="imagery" data-i18n="base.img">Imagery</button>
+        </div>
+      </div>
+    </article>
+
+    <div class="filters reveal" role="tablist" aria-label="Filter projects">
+      <button class="on" data-filter="all" data-i18n="f.all">All</button>
+      <button data-filter="utility" data-i18n="f.utility">Utility Network</button>
+      <button data-filter="municipal" data-i18n="f.municipal">Municipal &amp; Infrastructure</button>
+      <button data-filter="planning" data-i18n="f.planning">Urban Planning</button>
+    </div>
+
+    <div class="gallery">
+      <figure class="work reveal" data-cat="utility">
+        <button class="work__img" type="button"><img src="assets/img/test-section-layout.webp" alt="100 mbar distribution network test section layout, Sohag" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w1.t">100 mbar Distribution Network Layout</h3><p data-i18n="w1.d">Issued-for-construction test-section sheet for Sohag sectors 13–15: legend, call-outs, pipe classes and title block.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="utility">
+        <button class="work__img" type="button"><img src="assets/img/utility-network-pro.webp" alt="Utility Network pipeline assembly and devices in ArcGIS Pro" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w2.t">Gas Utility Network in ArcGIS Pro</h3><p data-i18n="w2.d">Pipeline assemblies, devices, junctions and lines modelled in the Esri Utility Network.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="utility">
+        <button class="work__img" type="button"><img src="assets/img/pipeline-modelbuilder.webp" alt="ModelBuilder-generated pipeline end caps and network" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w3.t">Automated Network QA with ModelBuilder</h3><p data-i18n="w3.d">Geoprocessing model generating end caps and validating pipeline connectivity at scale.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="municipal">
+        <button class="work__img" type="button"><img src="assets/img/riyadh-sectors-labeled.webp" alt="Municipal sectors map with licensed asset points" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w4.t">Municipal Sectors &amp; Licensed Assets</h3><p data-i18n="w4.d">Sector boundaries with ATM, bank and telecom-tower contract locations from the enterprise geodatabase.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="municipal">
+        <button class="work__img" type="button"><img src="assets/img/riyadh-sectors.webp" alt="Asset distribution across municipal sectors" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w5.t">Asset Distribution Overview</h3><p data-i18n="w5.d">Symbolized asset categories over municipal boundaries for planning and reporting.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="municipal">
+        <button class="work__img" type="button"><img src="assets/img/telecom-network.webp" alt="Infrastructure corridors with asset points over imagery" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w6.t">Infrastructure Corridors</h3><p data-i18n="w6.d">Linear infrastructure routes with attributed asset points over satellite imagery.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="municipal">
+        <button class="work__img" type="button"><img src="assets/img/infrastructure-lines.webp" alt="Infrastructure network lines by category" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w7.t">Network Routes by Category</h3><p data-i18n="w7.d">Multi-class line network styled by category for stakeholder review.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="municipal">
+        <button class="work__img" type="button"><img src="assets/img/site-suitability.webp" alt="Site suitability analysis of land parcels" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w8.t">Site Suitability Analysis</h3><p data-i18n="w8.d">Parcel-level suitability assessment highlighting candidate plots for a proposed facility.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="planning">
+        <button class="work__img" type="button"><img src="assets/img/coastal-masterplan.webp" alt="Urban planning layout map sheet" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w9.t">Urban Planning Map Sheet</h3><p data-i18n="w9.d">Production map layout with inset, legend and title block for a planning study.</p></figcaption>
+      </figure>
+      <figure class="work reveal" data-cat="planning">
+        <button class="work__img" type="button"><img src="assets/img/urban-satellite.webp" alt="Urban sectors digitized over satellite imagery" loading="lazy"></button>
+        <figcaption><h3 data-i18n="w10.t">Urban Sector Digitizing</h3><p data-i18n="w10.d">Urban blocks and parcels digitized and attributed over high-resolution imagery.</p></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section" id="certifications">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="kicker">05</p>
+      <h2 data-i18n="cert.title">Certifications &amp; Education</h2>
+    </header>
+
+    <div class="creds">
+      <article class="cred cred--hero reveal">
+        <button class="cred__img" type="button"><img src="assets/img/cert-sce.webp" alt="Saudi Council of Engineers membership certificate" loading="lazy"></button>
+        <div>
+          <h3 data-i18n="cr1.t">Saudi Council of Engineers — Specialist</h3>
+          <p data-i18n="cr1.d">Registered member, Surveying specialization · 2026 – 2027</p>
+        </div>
+      </article>
+      <article class="cred reveal">
+        <button class="cred__img" type="button"><img src="assets/img/doc-accreditation.webp" alt="Professional Accreditation Certificate (personal data hidden)" loading="lazy"></button>
+        <div>
+          <h3 data-i18n="cr2.t">Professional Accreditation — Geographer</h3>
+          <p data-i18n="cr2.d">Ministry of Human Resources &amp; Social Development, KSA · 2025</p>
+        </div>
+      </article>
+      <article class="cred reveal">
+        <button class="cred__img" type="button"><img src="assets/img/c02.webp" alt="General Organization for Physical Planning expert assistant letter" loading="lazy"></button>
+        <div>
+          <h3 data-i18n="cr3.t">GIS Expert Assistant</h3>
+          <p data-i18n="cr3.d">General Organization for Physical Planning · 2025</p>
+        </div>
+      </article>
+    </div>
+
+    <h3 class="minor docs__title reveal" data-i18n="docs.title">Verified Documents</h3>
+    <div class="docs">
+      <a class="doc reveal" href="assets/docs/accreditation-certificate.pdf" target="_blank" rel="noopener">
+        <span class="doc__img"><img src="assets/img/doc-accreditation.webp" alt="Professional Accreditation Certificate" loading="lazy"></span>
+        <span class="doc__body"><strong data-i18n="doc1.t">Professional Accreditation Certificate</strong><span data-i18n="doc1.d">Ministry of Human Resources &amp; Social Development, KSA · Geographer (263202) · 2025</span><em data-i18n="doc.open">View PDF ↗</em></span>
+      </a>
+      <a class="doc reveal" href="assets/docs/degree-attestation.pdf" target="_blank" rel="noopener">
+        <span class="doc__img"><img src="assets/img/doc-attestation.webp" alt="Degree verification notice" loading="lazy"></span>
+        <span class="doc__body"><strong data-i18n="doc2.t">Degree Verification (Attestation)</strong><span data-i18n="doc2.d">Bachelor's degree authenticated · Certificate verification request, 2024</span><em data-i18n="doc.open">View PDF ↗</em></span>
+      </a>
+      <a class="doc reveal" href="assets/docs/experience-certificates-redacted.pdf" target="_blank" rel="noopener">
+        <span class="doc__img"><img src="assets/img/doc-experience.webp" alt="Graduation and experience certificates" loading="lazy"></span>
+        <span class="doc__body"><strong data-i18n="doc3.t">Graduation &amp; Experience Certificates</strong><span data-i18n="doc3.d">Helwan University degree and experience letters and course certificates · 22 pages</span><em data-i18n="doc.open">View PDF ↗</em></span>
+      </a>
+    </div>
+
+    <h3 class="minor docs__title reveal" data-i18n="certs.all">Certificates</h3>
+    <div class="certgrid collapsed" id="certgrid">
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c11.webp" alt="Esri Technical Certification: ArcGIS Pro Foundation 2101" loading="lazy"></button><figcaption>Esri Technical Certification · ArcGIS Pro Foundation 2101 (2022)</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/cert-esri-enterprise.webp" alt="Esri MOOC: Make an Impact with Enterprise GIS" loading="lazy"></button><figcaption>Esri · Make an Impact with Enterprise GIS</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/cert-esri-spatial-ds.webp" alt="Esri MOOC: Spatial Data Science" loading="lazy"></button><figcaption>Esri · Spatial Data Science: The New Frontier in Analytics</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/cert-esri-imagery.webp" alt="Esri ArcGIS Imagery MOOC" loading="lazy"></button><figcaption>Esri · The ArcGIS Imagery MOOC</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/cert-geomatics-un.webp" alt="Configuring and Working with Utility Network in ArcGIS" loading="lazy"></button><figcaption>Geomatics · Configuring &amp; Working with Utility Network</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/cert-geomatics-enterprise.webp" alt="ArcGIS Enterprise and Modern Geo Apps" loading="lazy"></button><figcaption>Geomatics · ArcGIS Enterprise &amp; Modern Geo Apps</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c09.webp" alt="Esri MOOC: Cartography" loading="lazy"></button><figcaption>Esri · Cartography MOOC</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c12.webp" alt="Coursera UC Davis: Fundamentals of GIS" loading="lazy"></button><figcaption>Coursera · UC Davis · Fundamentals of GIS</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c16.webp" alt="Coursera University of Toronto: Introduction to GIS Mapping" loading="lazy"></button><figcaption>Coursera · University of Toronto · Introduction to GIS Mapping</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c10.webp" alt="Esri: ArcGIS Pro Basics" loading="lazy"></button><figcaption>Esri · ArcGIS Pro Basics</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c06.webp" alt="Esri: Getting Started with Spatial Analysis" loading="lazy"></button><figcaption>Esri · Getting Started with Spatial Analysis</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c07.webp" alt="Esri: Getting Started with Data Management" loading="lazy"></button><figcaption>Esri · Getting Started with Data Management</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c05.webp" alt="Esri: Using GIS to Solve Problems" loading="lazy"></button><figcaption>Esri · Using GIS to Solve Problems</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c08.webp" alt="Esri: Python for Everyone" loading="lazy"></button><figcaption>Esri · Python for Everyone</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c13.webp" alt="Geosteps Academy: ArcGIS Online" loading="lazy"></button><figcaption>Geosteps Academy · ArcGIS Online</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c14.webp" alt="Geosteps Academy: R for GIS" loading="lazy"></button><figcaption>Geosteps Academy · Introduction to R in GIS</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c19.webp" alt="Udemy: Python for Beginners" loading="lazy"></button><figcaption>Udemy · Python for Beginners</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c15.webp" alt="Udemy: Python for Beginners Part 1" loading="lazy"></button><figcaption>Udemy · Python for Beginners – Part 1</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c21.webp" alt="Edraak: Introduction to Artificial Intelligence" loading="lazy"></button><figcaption>Edraak · Introduction to Artificial Intelligence</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c22.webp" alt="Edraak: Online Teaching" loading="lazy"></button><figcaption>Edraak · Online Teaching</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c18.webp" alt="Al-Ramadani GIS Forum attendance" loading="lazy"></button><figcaption>Al-Ramadani Forum · GIS Experts Meetup (2023)</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c17.webp" alt="Youth2030 Entrepreneurship certificate" loading="lazy"></button><figcaption>Youth2030 · AUS · Entrepreneurship</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c04.webp" alt="African Centre for Surveying Services AutoCAD Civil training" loading="lazy"></button><figcaption>A.C.S.S · AutoCAD Civil Training (2018)</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c03.webp" alt="Arab Contractors surveying training" loading="lazy"></button><figcaption>The Arab Contractors · Surveying Works Training (2019)</figcaption></figure>
+      <figure class="reveal"><button class="cred__img" type="button"><img src="assets/img/c01.webp" alt="Helwan University graduation certificate" loading="lazy"></button><figcaption>Helwan University · Graduation Certificate (2021)</figcaption></figure>
+    </div>
+    <div class="more-wrap"><button class="btn btn--ghost" type="button" id="moreCerts" data-i18n="certs.more">Show all certificates (25)</button></div>
+
+    <div class="twocol">
+      <div class="reveal">
+        <h3 class="minor" data-i18n="courses.title">Training</h3>
+        <ul class="list">
+          <li><strong>Esri</strong> — <span data-i18n="tr1">10 certified GIS courses</span></li>
+          <li><strong>Geosteps Academy</strong> — <span data-i18n="tr2">2 certified GIS courses</span></li>
+          <li><strong>Udemy</strong> — <span data-i18n="tr3">2 certified GIS courses</span></li>
+          <li><strong>Coursera</strong> — <span data-i18n="tr4">2 certified GIS courses</span></li>
+          <li><strong>Edraak</strong> — <span data-i18n="tr5">Certified AI course</span></li>
+          <li><strong data-i18n="tr6k">The Arab Contractors</strong> — <span data-i18n="tr6">Summer internship, 2019</span></li>
+          <li><strong data-i18n="tr7k">African Centre for Surveying Services</strong> — <span data-i18n="tr7">Summer internship, 2018</span></li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3 class="minor" data-i18n="edu.title">Education</h3>
+        <div class="edu">
+          <div class="edu__year">2021</div>
+          <div>
+            <h4 data-i18n="edu.deg">Bachelor's Degree in Geography and Geographic Information Systems (GIS)</h4>
+            <p data-i18n="edu.uni">Helwan University — Faculty of Arts, Maps &amp; Survey Department</p>
+            <p class="muted" data-i18n="edu.grade">Cumulative grade: Very Good</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section--contact" id="contact">
+  <div class="container">
+    <div class="contact reveal">
+      <p class="kicker">06</p>
+      <h2 data-i18n="contact.title">Let's map your next project</h2>
+      <p class="contact__lead" data-i18n="contact.lead">Looking for a GIS Administrator to own your enterprise GIS, geodatabases and data quality? I'm available for full-time roles in Saudi Arabia.</p>
+      <div class="contact__grid">
+        <a class="contact__item" href="mailto:oh0847338@gmail.com">
+          <span class="contact__k" data-i18n="ct.email">Email</span><span class="contact__v">oh0847338@gmail.com</span>
+        </a>
+        <a class="contact__item" href="tel:+966531240663">
+          <span class="contact__k" data-i18n="ct.phone">Phone / WhatsApp</span><span class="contact__v" dir="ltr">+966 53 124 0663</span>
+        </a>
+        <a class="contact__item" href="https://www.linkedin.com/in/omar-hesham-5655701b6" target="_blank" rel="noopener">
+          <span class="contact__k">LinkedIn</span><span class="contact__v">in/omar-hesham</span>
+        </a>
+      </div>
+      <a class="btn btn--primary btn--lg" href="assets/Omar-Hesham-GIS-CV.pdf" download data-i18n="hero.cta2">Download CV</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> <span data-i18n="name">Omar Hisham Zakaria</span> · <span data-i18n="role">GIS Administrator</span></p>
+    <a href="#home" class="totop" data-i18n="totop">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox__close" type="button" aria-label="Close">×</button>
+  <img alt="">
+  <p class="lightbox__cap"></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
