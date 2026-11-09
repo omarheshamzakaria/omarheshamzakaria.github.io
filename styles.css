@@ -365,3 +365,28 @@ html[lang="ar"] .lang-label { font-family: var(--font); }
 @media print { .more-wrap { display: none; } }
 .creds .cred__img { border-radius: 12px; aspect-ratio: 1.41; border: 1px solid var(--line); }
 .creds .cred__img img { object-fit: cover; object-position: top; background: #fff; }
+/* ========== Polish: name on one line, consistent type and alignment ========== */
+.hero__name { font-size: clamp(26px, 8.4vw, 60px); }
+.hero__name span:first-child { font-size: max(18px, .42em); }
+.hero__name .grad { white-space: nowrap; }
+.hero__role { flex-direction: column; align-items: flex-start; gap: 2px; }
+.hero__role .sep { display: none; }
+.eyebrow, .nav__links a { font-size: 14px; }
+.section__sub { font-size: 17px; }
+.job__card > ul:not(.tags) li { font-size: 15px; }
+.tags li { font-size: 13px; }
+.live__info h3 { font-size: 20px; }
+.skill h3, .work h3, .cred h3, .edu h4, .doc__body strong { font-size: 18px; line-height: 1.3; }
+html[lang="ar"] .job__meta time, html[lang="ar"] .live__meta { font-family: var(--font-ar); }
+.timeline { margin: 0; padding: 0; list-style: none; }
+.certgrid { margin-top: 0; }
+.docs__title { margin-top: 44px; }
+.contact__v { word-break: normal; overflow-wrap: anywhere; }
+@media (min-width: 681px) {
+  .timeline::before { inset-inline-start: 178px; }
+  .job::before { inset-inline-start: 172px; top: 24px; }
+}
+@media (min-width: 1021px) {
+  .hero__name { font-size: clamp(44px, 4.4vw, 60px); }
+  .creds { grid-template-columns: repeat(3, 1fr); }
+}
